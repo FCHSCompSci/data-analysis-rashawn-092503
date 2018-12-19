@@ -15,8 +15,6 @@ with open(chess_wins) as f:
             black_winner += 1
         elif row[17] == "Draw":
             draws += 1
-    print(white_winner)
-    print(black_winner)
 x = []
 lsts = ["white wins", "black wins", "draw"]
 performance = [white_winner,black_winner,draws]
